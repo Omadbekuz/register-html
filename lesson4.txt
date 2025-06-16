@@ -1,0 +1,85 @@
+📘 HTML 4-dars Dars Rejasi
+Mavzu: HTMLda Ro‘yxatlar (Listlar)
+Sinfi: 7–9-sinf (yoki boshlang‘ich HTML o‘rganuvchilari uchun)
+Dars davomiyligi: 45 daqiqa
+
+I. Darsning maqsadi:
+A) Ta’limiy maqsad:
+O‘quvchilarga HTMLda tartiblangan (<ol>) va tartiblanmagan (<ul>) ro‘yxatlar tushunchasini berish.
+
+<li> tegi orqali ro‘yxat elementlarini yaratishni o‘rgatish.
+
+B) Tarbiyaviy maqsad:
+O‘quvchilarda veb sahifalarni toza va tartibli yaratish ko‘nikmalarini shakllantirish.
+
+Texnologiyalarga qiziqish uyg‘otish.
+
+C) Rivojlantiruvchi maqsad:
+Mustaqil fikrlash va mantiqiy tahlil qilish ko‘nikmalarini rivojlantirish.
+
+Kod yozish orqali diqqatni jamlashni o‘rgatish.
+
+II. Darsning jihozi:
+Kompyuter/laptoplar
+
+HTML muharriri (Notepad, VS Code, Sublime Text)
+
+Proyektor yoki doska
+
+Slaydlar yoki misollar
+
+III. Darsning borishi:
+1. Tashkiliy qism – 5 daqiqa
+Salomlashish, navbatni tekshirish.
+
+Oldingi darsni qisqacha so‘rash (masalan: <a>, <img>, <br> teglarini takrorlash).
+
+2. Yangi mavzuni tushuntirish – 15 daqiqa
+HTMLda ro‘yxat nima?
+
+Tartiblanmagan ro‘yxat (unordered list):
+
+html
+Копировать
+Редактировать
+<ul>
+  <li>Olma</li>
+  <li>Banan</li>
+  <li>Anor</li>
+</ul>
+Tartiblangan ro‘yxat (ordered list):
+
+html
+Копировать
+Редактировать
+<ol>
+  <li>Dushanba</li>
+  <li>Seshanba</li>
+  <li>Chorshanba</li>
+</ol>
+<li> - har bir ro‘yxat elementi uchun ishlatiladi.
+
+Ro‘yxatlar ichma-ich ham bo‘lishi mumkinligini tushuntirish.
+
+3. Amaliy mashg‘ulot – 15 daqiqa
+O‘quvchilar o‘z HTML fayllarida har xil ro‘yxatlar yasab ko‘rishadi.
+
+Masalan, “Sevimli mevalar” yoki “Kun tartibi” mavzusida ro‘yxat yozish.
+
+4. Mustahkamlash – 5 daqiqa
+Savol-javob o‘tkazish:
+
+Ro‘yxat yaratishda qaysi teglar ishlatiladi?
+
+<ul> va <ol> orasidagi farq nima?
+
+5. Uyga vazifa – 5 daqiqa
+“O‘zim haqimda” sahifasi yaratish va unda 2 xil ro‘yxatdan foydalanish.
+
+Misol: “Sevimli mashg‘ulotlarim”, “Bugungi rejam” bo‘limlari.
+
+IV. Kutilyotgan natija:
+O‘quvchi HTML ro‘yxatlarini to‘g‘ri yozishni o‘rganadi.
+
+Har xil ma’lumotlarni tartibli ko‘rinishda ifodalashga o‘rgatiladi.
+

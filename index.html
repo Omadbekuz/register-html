@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lesson</title>
+  </head>
+  <style>
+    * {
+      user-select: none;
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      width: 100%;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+    h1,
+    label {
+      color: #4caf50;
+    }
+    input[type="text"],
+    input[type="password"],
+    input[type="email"],
+    input[type="number"],
+    input[type="date"],
+    input[type="time"],
+    input[type="file"],
+    input[type="button"] {
+      width: 99%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    input[type="button"] {
+      background-color: #4caf50;
+      color: white;
+      cursor: pointer;
+    }
+    input[type="button"]:active{
+        background-color: #529155;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th,
+    td {
+      text-align: left;
+      padding: 8px;
+    }
+    th {
+      background-color: #4caf50;
+      color: white;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin-top: 20px;
+    }
+    ul li {
+      background-color: #f9f9f9;
+      padding: 8px;
+      margin: 5px 0;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+    ol {
+      padding: 0;
+      margin-top: 20px;
+    }
+    ol li {
+      background-color: #f9f9f9;
+      padding: 8px;
+      margin: 5px 0;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+  </style>
+  <body>
+    <h1>Royxat</h1>
+    <hr />
+    <input type="text" placeholder="Ismingini yozing" /><br />
+    <input type="password" placeholder="Parolingizni yozing" /><br />
+    <input type="email" placeholder="Email manzilingizni yozing" /><br />
+    <label>Yoshingizni yozing</label>
+    <input type="number" /><br />
+    <label>Tug'ilgan kuningizni yozing</label>
+    <input type="date" /><br />
+    <label> Vaqtni yozing </label>
+    <input type="time" placeholder="" /><br />
+    <label>Rangni tanlang</label>
+    <input type="color" /><br />
+    <input type="file" placeholder="Faylni tanlang" /><br />
+    <input type="button" value="Jo'natish" />
+    <hr />
+    <h1>Royxatnoma</h1>
+    <hr />
+    <table border="1" cellpadding="10" cellspacing="0" style="cursor: pointer">
+      <tr>
+        <th>Ism</th>
+        <th>Familiya</th>
+        <th>Yosh</th>
+        <th>Email</th>
+      </tr>
+      <tr>
+        <td>Ali</td>
+        <td>Valiyev</td>
+        <td>25</td>
+        <td>Ali@example.com</td>
+      </tr>
+      <tr>
+        <td>Olim</td>
+        <td>Rahimov</td>
+        <td>30</td>
+        <td>Olim@example.com</td>
+      </tr>
+      <tr>
+        <td>Gulnora</td>
+        <td>Qodirova</td>
+        <td>22</td>
+        <td>Gulnora@example.com</td>
+      </tr>
+    </table>
+    <h1>Foydalanuvchi kiritishi kerak bolgan qiymatlar</h1>
+    <hr />
+    <ul>
+      <li>ism</li>
+      <li>familiya</li>
+      <li>yosh</li>
+      <li>email</li>
+    </ul>
+    <h1>Ishkunlari</h1>
+    <hr />
+    <ol>
+      <li>Dushanba</li>
+      <li>Seshanba</li>
+      <li>Chorshanba</li>
+    </ol>
+  </body>
+</html>
